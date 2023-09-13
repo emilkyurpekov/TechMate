@@ -9,4 +9,5 @@ public interface IGraphicCard {
     int memory();
     String memoryType();
     List<String> getPorts();
+    double getPrice();
 }

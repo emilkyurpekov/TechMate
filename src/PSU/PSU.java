@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PSU implements IPSU{
+    private double price;
      private String model;
-     private int power;
+    private int power;
 
 
     private String type;
@@ -14,8 +15,9 @@ public class PSU implements IPSU{
     private String certificateType;
      private  List<String> connectors;
 
-    public PSU(String model, int power, String type, String certificateType, List<String> connectors) {
+    public PSU(String model, int power, String type, String certificateType, List<String> connectors, double price) {
         this.model = model;
+        this.price = price;
         setPower(power);
         setType(type);
         setCertificateType(certificateType);
@@ -25,6 +27,11 @@ public class PSU implements IPSU{
     @Override
     public String getModel() {
         return this.model;
+    }
+
+    @Override
+    public double getPrice() {
+        return this.price;
     }
 
     @Override

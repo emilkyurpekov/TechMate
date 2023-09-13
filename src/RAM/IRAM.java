@@ -5,4 +5,5 @@ public interface IRAM {
     int getMemory();
     String getType();
     double getFrequency();
+    double getPrice();
 }

@@ -6,15 +6,16 @@ import java.util.List;
 public class GraphicCard implements IGraphicCard {
     private String manufacturer;
 
-    public GraphicCard(String manufacturer, String model, String splint, int memory, String memoryType) {
+    public GraphicCard(String manufacturer, String model, String splint, int memory, String memoryType,double price) {
         setManufacturer(manufacturer);
         this.model = model;
         this.splint = splint;
         this.memory = memory;
         setMemoryType(memoryType);
         this.ports = new ArrayList<>();
+        this.price = price;
     }
-
+    private double price;
     private String model;
     private String splint;
     private int memory;
@@ -50,6 +51,12 @@ public class GraphicCard implements IGraphicCard {
     public List<String> getPorts() {
         return this.ports;
     }
+
+    @Override
+    public double getPrice() {
+        return this.price;
+    }
+
     public void addPorts(String ports){
         this.ports.add(ports);
     }
