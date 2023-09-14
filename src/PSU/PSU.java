@@ -7,11 +7,7 @@ public class PSU implements IPSU{
     private double price;
      private String model;
     private int power;
-
-
     private String type;
-
-
     private String certificateType;
      private  List<String> connectors;
 

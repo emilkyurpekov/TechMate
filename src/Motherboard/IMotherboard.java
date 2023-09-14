@@ -6,5 +6,5 @@ public interface IMotherboard {
     String getSocket();
     String getChipset();
     int getMemorySlots();
-
+    int getPrice();
 }
