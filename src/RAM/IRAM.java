@@ -6,4 +6,5 @@ public interface IRAM {
     String getType();
     double getFrequency();
     double getPrice();
+
 }

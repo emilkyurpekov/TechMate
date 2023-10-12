@@ -61,7 +61,7 @@ public class GraphicCard implements IGraphicCard {
         this.ports.add(ports);
     }
     public void setManufacturer(String manufacturer)throws IllegalArgumentException {
-        if(!manufacturer.equals("NVIDIA") && !manufacturer.equals("AMD")){
+        if(!manufacturer.contains("NVIDIA") && !manufacturer.contains("AMD")){
             throw new IllegalArgumentException("Unsupported video card manufacturer");
         }
         this.manufacturer = manufacturer;

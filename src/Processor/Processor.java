@@ -19,7 +19,7 @@ public class Processor implements IProcessor {
     }
 
     public void setModel(String model) throws IllegalArgumentException {
-        if(!model.equals("Intel") && !model.equals("AMD")){
+        if(!model.contains("Intel") && !model.contains("AMD")){
             throw new IllegalArgumentException("Unsupported processor model.");
         }
         this.model = model;

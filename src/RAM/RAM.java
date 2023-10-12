@@ -7,6 +7,7 @@ public class RAM implements IRAM {
     private String type;
     private double frequency;
 
+
     public RAM(String model, int memory, String type, double frequency,double price) {
         this.price = price;
         this.model = model;

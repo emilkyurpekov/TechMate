@@ -8,6 +8,15 @@ public class Motherboard implements IMotherboard {
     private int memorySlots;
     private int price;
 
+    public Motherboard(String model, String platform, String socket, String chipset, int memorySlots, int price) {
+        this.model = model;
+        this.platform = platform;
+        this.socket = socket;
+        this.chipset = chipset;
+        this.memorySlots = memorySlots;
+        this.price = price;
+    }
+
     @Override
     public String getModel() {
         return this.model;
