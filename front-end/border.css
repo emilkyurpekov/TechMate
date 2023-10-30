@@ -1,0 +1,13 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 2px solid black; /* Add a black border on the bottom */
+    padding-bottom: 10px; /* Optional: Add some spacing between menu and pics-computer */
+}
+
+.pics-computer {
+    position: relative;
+    margin-top: 10px; /* Optional: Add some spacing between pics-computer and menu */
+}
