@@ -1,0 +1,21 @@
+
+body {
+    background-color: whitesmoke; /* Set the background color of the entire website to gray */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    
+}
+ h2{
+    background-color: darkred;
+    border: 1px solid black;
+    height: 30px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    padding:8px;
+    color: whitesmoke;
+    margin-top: 0;
+}
+p{
+    text-align: center;
+}
