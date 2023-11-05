@@ -1,8 +1,9 @@
-
 body {
     background-color: whitesmoke; /* Set the background color of the entire website to gray */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */
+    font-size: 15px;
+    text-align: center;
     
 }
  h2{
@@ -18,4 +19,10 @@ body {
 }
 p{
     text-align: center;
+    font-size: 15px;
+    text-decoration: solid;
+}
+body li{
+    padding-left: 0;
+    margin-left: 0;
 }
