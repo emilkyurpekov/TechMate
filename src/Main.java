@@ -20,7 +20,11 @@ public class Main {
         Motherboard ASUSTUFGAMINGB450M = new Motherboard("ASUS","AMD","AM4","AMD B450",4,199);
         RAM CorsairVengeance = new RAM("3200MHzCorsair Vengeance",8,"DDR4",3200,99);
     }
-
+  public static void printGraphicCardPorts(GraphicCard graphicCard) {
+        for (String port : graphicCard.getPorts()) {
+            System.out.println(port);
+        }
+    }
     public int calculateTotalPrice(int price1, int price2, int price3, int price4, int price5, int price6) {
         return price1 + price2 + price3 + price4 + price5 + price6;
     }
