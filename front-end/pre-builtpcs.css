@@ -1,0 +1,71 @@
+.pics-computer {
+    padding: 0;
+    padding-left: 1em;
+    margin-top: 3%;
+    margin-left: 1.5em;
+    transition: background-color 0.5s ease;
+    border-bottom: 1px solid black;
+}
+
+.pics-computer .pc1,
+.pics-computer .pc2,
+.pics-computer .pc3,
+.pics-computer .pc4,
+.pics-computer .pc5 {
+    width: 100px;
+    height: 100px;
+    border-radius: 1em;
+    transition: transform 0.3s;
+    margin-right: 10px;
+}
+
+.pics-computer .pc2:hover,
+.pics-computer .pc1:hover,
+.pics-computer .pc3:hover,
+.pics-computer .pc4:hover,
+.pics-computer .pc5:hover {
+    transform: scale(1.1);
+}
+
+.pics-computer {
+    position: relative;
+    margin-top: 10px;
+}
+.pics-computer a {
+    color: black;
+    text-decoration: none;
+}
+
+.image-container {
+    position: relative;
+    display: inline-block;
+    margin: 10px;
+}
+
+.image-text {
+    top: 50%;
+    left: 50%;
+    transform: translate(-5%, -5%);
+    color: black;
+    padding: 5px;
+    width: auto;
+    font-size: 12px;
+    border-radius: 2em;
+    transition: background-color 0.5s ease;
+}
+
+.image-text:hover  {
+    background-color: darkred;
+    border-radius: 2em;
+}
+.image-text:hover a  {
+   color: blanchedalmond;
+   transition: color 0.5s ease;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
