@@ -67,7 +67,7 @@ public class GraphicCard implements IGraphicCard {
         this.manufacturer = manufacturer;
     }
 
-    public void setMemoryType(String memoryType) throws IllegalArgumentException{
+    public void setMemoryType(String memoryType) throws IllegalArgumentException {
         if (memoryType.equals("GDDR4") || memoryType.equals("GDDR5") || memoryType.equals("GDDR6") || memoryType.equals("HBM")) {
             this.memoryType = memoryType;
             return;
